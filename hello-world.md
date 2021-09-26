@@ -110,7 +110,7 @@ it is a macro. A subset of the standard library is available without needing to
 be explicitly imported/included (the prelude). The `println!` macro is included
 as part of that subset.
 
-Lets change our example a little bit:
+Let's change our example a little bit:
 
 ```rust
 fn main() {
@@ -119,8 +119,8 @@ fn main() {
 }
 ```
 
-`let` is used to introduce a variable, world is the variable name and it is a
-string (technically the type is `&'static str`, but more on that later). We
+`let` is used to introduce a variable, `world` is the variable name and it is
+a string (technically the type is `&'static str`, but more on that later). We
 don't need to specify the type, it will be inferred for us.
 
 Using `{}` in the `println!` statement is like using `%s` in printf. In fact, it
